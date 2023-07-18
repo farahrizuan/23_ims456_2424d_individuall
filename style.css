@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(199, 180, 180, 0.452), rgba(199, 180, 180, 0.452)),url(images/photo-1517315003714-a071486bd9ea.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: black;
+    font-size: 100px;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: black;
+    font-size: 16px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/pexels-photo-1831234.webp);
+    background-position: center;
+    background-size: cover;
+    transition: tranform 0.5s;
+}
+
+.card1{
+    background-image: url(images/awan\ 2.avif); 
+}
+
+.card2{
+    background-image: url(images/farah\ 5.jpg); 
+}
+
+.card3{
+    background-image: url(images/farah\ 3.jpg); 
+}
+
+.card4{
+    background-image: url(images/awan\ 2.avif); 
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.content
+{
+    text-align: justify;
+    font-family:inherit;
+}
+
+table, tr, td, th
+{
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 5px;
+}
+
+tr
+{
+    background-color: rgb(233, 200, 220);
+}
+
+tr:nth-child(odd)
+{
+    background-color: palevioletred;
+}
+
+th
+{
+    background-color: black;
+    color: beige;
+}
+
+tr:hover
+{
+    background-color: fuchsia;
+}
+
+body
+{
+    background-color: lightpink;
+}
+
+
+
+
+h1
+{
+    color:rgb(0, 0, 0)
+}
+
+a
+{
+    text-decoration: none;
+    font-family: Impact;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+a:hover
+{
+    color:black;
+    font-size: 18pt;
+}
+
+.header
+{
+    width: 100%;
+    background-color: rgb(213, 123, 240);
+    padding-bottom: 30px;
+}
+
+.slider
+{
+    width: 100%;
+    background-color: rgb(235, 225, 208);
+    padding-bottom: 400px;
+}
